@@ -9,6 +9,11 @@ public class GameManager : MonoBehaviour
     public List<DominoTile> Deck = new List<DominoTile>();
 
     private int currentPlayerIndex = 0;
+    /// <summary>
+    /// Exposes the index of the player whose turn is currently active so
+    /// that UI elements can display turn information.
+    /// </summary>
+    public int CurrentPlayerIndex => currentPlayerIndex;
     private int passCount = 0;
     private bool gameEnded = false;
 
