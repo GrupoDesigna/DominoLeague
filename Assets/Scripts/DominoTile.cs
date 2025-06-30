@@ -11,4 +11,9 @@ public class DominoTile
         Left = left;
         Right = right;
     }
+
+    public DominoTile Flip()
+    {
+        return new DominoTile(Right, Left);
+    }
 }
