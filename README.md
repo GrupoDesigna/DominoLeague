@@ -48,6 +48,8 @@ un jugador se queda sin fichas o la mesa queda trancada.
   - `Jugador` almacena la información del jugador (ID, nombre, monedas y rango).
   - `Ficha` es la pieza individual de dominó utilizada en la partida.
   - `DataManager` gestiona el guardado y carga del progreso del jugador.
+  - `UI/DominoUIManager` actualiza la representación visual de la mano,
+    las fichas en la mesa, un marcador y el indicador de turno.
 
 Para abrir el proyecto simplemente copie la carpeta en su workspace de Unity y abra la escena principal.
 
