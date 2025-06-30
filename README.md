@@ -28,6 +28,12 @@ Pop‑ups y pantallas auxiliares como la creación de mesa, selección de modos 
 El script `DataManager.gd` implementa un sistema de guardado y carga para el perfil del jugador y otras configuraciones usando un archivo JSON.
 Proyecto basico de un juego de dominó desarrollado en Unity.
 
+## Modo Offline
+El prototipo incluye un modo de juego para un jugador contra la
+IA. Se reparten 7 fichas a cada participante y el juego gestiona
+la salida, los turnos, los pases y el cierre de la ronda cuando
+un jugador se queda sin fichas o la mesa queda trancada.
+
 ## Estructura
 
 - `Assets/Scenes` - Carpeta para las escenas del juego.
