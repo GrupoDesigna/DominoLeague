@@ -1,5 +1,6 @@
 # DominoLeague
 
+
 Juego de dominó
 
 ## Estructura de proyectos y escenas
@@ -25,3 +26,16 @@ Pop‑ups y pantallas auxiliares como la creación de mesa, selección de modos 
 
 ### Gestión de Datos
 El script `DataManager.gd` implementa un sistema de guardado y carga para el perfil del jugador y otras configuraciones usando un archivo JSON.
+Proyecto basico de un juego de dominó desarrollado en Unity.
+
+## Estructura
+
+- `Assets/Scenes` - Carpeta para las escenas del juego.
+- `Assets/Scripts` - Contiene los scripts en C# que definen las principales clases:
+  - `GameManager` gestiona el flujo del juego.
+  - `DominoTile` representa una ficha.
+  - `Player` mantiene la mano de un jugador.
+  - `DominoBoard` administra las fichas en la mesa.
+
+Para abrir el proyecto simplemente copie la carpeta en su workspace de Unity y abra la escena principal.
+
