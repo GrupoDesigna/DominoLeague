@@ -41,6 +41,7 @@ Proyecto basico de un juego de dominó desarrollado en Unity.
   - `Mesa` controla las fichas colocadas en el tablero.
   - `Jugador` almacena la información del jugador (ID, nombre, monedas y rango).
   - `Ficha` es la pieza individual de dominó utilizada en la partida.
+  - `DataManager` gestiona el guardado y carga del progreso del jugador.
 
 Para abrir el proyecto simplemente copie la carpeta en su workspace de Unity y abra la escena principal.
 
