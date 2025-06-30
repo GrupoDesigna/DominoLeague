@@ -36,6 +36,10 @@ Proyecto basico de un juego de dominó desarrollado en Unity.
   - `DominoTile` representa una ficha.
   - `Player` mantiene la mano de un jugador.
   - `DominoBoard` administra las fichas en la mesa.
+  - `Partida` gestiona el estado general de una partida.
+  - `Mesa` controla las fichas colocadas en el tablero.
+  - `Jugador` almacena la información del jugador (ID, nombre, monedas y rango).
+  - `Ficha` es la pieza individual de dominó utilizada en la partida.
 
 Para abrir el proyecto simplemente copie la carpeta en su workspace de Unity y abra la escena principal.
 
